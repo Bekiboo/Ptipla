@@ -1,0 +1,1 @@
+Authentication: using Lucia? https://lucia-auth.com/database/prisma
