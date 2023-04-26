@@ -1,13 +1,12 @@
 <script>
 	import '../app.css';
-	// import Navbar from './Navbar.svelte';
+	import Navbar from './Navbar.svelte';
 	import SideNav from './SideNav.svelte';
 </script>
 
-<!-- <Navbar /> -->
+<Navbar />
 
 <div class="flex w-full h-full">
 	<SideNav />
 	<slot />
 </div>
-
