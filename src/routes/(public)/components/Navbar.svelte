@@ -4,7 +4,7 @@
 
 <nav class="sticky w-screen top-0 bg-green-500 h-20 flex justify-between">
 	<div class="flex items-center gap-2 my-auto ml-2">
-		<div class="text-4xl">P'ti Plats</div>
+		<div class="text-4xl">P'tits Plats</div>
 		<a href="/home">
 			<img src="/icons/logo.svg" alt="logo" class="h-16" />
 		</a>
