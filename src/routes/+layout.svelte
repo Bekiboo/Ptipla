@@ -1,7 +1,5 @@
 <script lang="ts">
 	import '../app.css';
-	import Navbar from './Navbar.svelte';
-	import SideNav from './SideNav.svelte';
 	import { invalidate } from '$app/navigation';
 	import { onMount } from 'svelte';
 	import type { LayoutData } from './$types';
@@ -21,13 +19,6 @@
 	});
 </script>
 
-<svelte:head>
-	<title>User Management</title>
-</svelte:head>
-
-<Navbar />
-
-<div class="flex w-full h-full">
-	<SideNav />
+<div class="text-gray-700">
 	<slot />
 </div>
