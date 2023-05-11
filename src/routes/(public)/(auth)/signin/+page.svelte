@@ -36,7 +36,7 @@
 <div class="w-full bg-white rounded-lg shadow md:mt-0 sm:max-w-md xl:p-0">
 	<div class="p-6 space-y-4 md:space-y-6 sm:p-8">
 		<h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl">
-			Créer un compte
+			Se Connecter
 		</h1>
 
 		<!-- {#if form?.credentials}
@@ -45,7 +45,7 @@
 
 		<form method="post" class="space-y-4 md:space-y-6" action="?/signUp" use:enhance novalidate>
 			<div>
-				<label for="email" class="block mb-2 text-sm font-medium text-gray-900">Votre Email</label>
+				<label for="email" class="block mb-2 text-sm font-medium text-gray-900">Your email</label>
 				<input
 					bind:value={email}
 					type="email"
@@ -60,9 +60,7 @@
           {/if} -->
 			</div>
 			<div>
-				<label for="password" class="block mb-2 text-sm font-medium text-gray-900"
-					>Mot de Passe</label
-				>
+				<label for="password" class="block mb-2 text-sm font-medium text-gray-900">Password</label>
 				<input
 					type="password"
 					name="password"
@@ -77,7 +75,7 @@
 			</div>
 			<div>
 				<label for="confirmPassword" class="block mb-2 text-sm font-medium text-gray-900"
-					>Confirmez le Mot de Passe</label
+					>Confirm password</label
 				>
 				<input
 					type="password"
@@ -97,13 +95,13 @@
 			<div class="flex items-end justify-between" />
 			<button
 				type="submit"
-				class="outline outline-2 outline-orange-300 hover:outline-4 shadow-md active:shadow-none font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center duration-100"
-				>Créer mon Compte</button
+				class="text-white bg-orange-500 hover:bg-orange-400 border-2 border-white shadow-md active:shadow-none font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center duration-100"
+				>Sign up</button
 			>
 			<p class="text-sm font-light text-gray-500">
-				Vous avez déjà un compte? <a
+				Already have an account? <a
 					href="/signin"
-					class="font-medium text-primary-600 hover:underline">Se Connecter</a
+					class="font-medium text-primary-600 hover:underline">Sign in</a
 				>
 			</p>
 		</form>
